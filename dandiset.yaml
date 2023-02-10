@@ -35,8 +35,8 @@ assetsSummary:
   - ProcessingModule
   - PlaneSegmentation
   - OpticalChannel
-citation: Martin Haesemeyer (2022) Thermoregulatory Responses Hindbrain (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000237/draft
+citation: Haesemeyer, Martin (2023) Thermoregulatory Responses Hindbrain (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000237/draft
 contributor:
 - awardNumber: 1 R01 NS 123887-01
   name: National Institutes of Health (NIH)
@@ -46,7 +46,7 @@ contributor:
 - affiliation: []
   email: haesemeyer.1@osu.edu
   includeInCitation: true
-  name: Martin Haesemeyer
+  name: Haesemeyer, Martin
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
