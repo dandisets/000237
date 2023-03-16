@@ -7,11 +7,41 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 30057962408
+  numberOfFiles: 8
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7955
+    name: Danio rerio - Zebra fish
+    schemaKey: SpeciesType
+  variableMeasured:
+  - OpticalChannel
+  - TwoPhotonSeries
+  - PlaneSegmentation
+  - ImagingPlane
+  - ProcessingModule
+  - BehavioralTimeSeries
 citation: Haesemeyer, Martin (2023) Thermoregulatory Responses Hindbrain (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000237/draft
+  draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - awardNumber: 1 R01 NS 123887-01
   name: National Institutes of Health (NIH)
@@ -26,8 +56,10 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2022-04-16T22:44:59.032387+00:00'
+datePublished: '2023-03-16T16:55:56.052220+00:00'
 description: Imaging in the hindbrain of nac -/-; Elavl3-H2B:GCaMP6s +/-; vglut2a-mCherry
   +/- larval zebrafish during random wave temperature stimulus presentation
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000237/draft
 identifier: DANDI:000237
@@ -38,6 +70,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000237/versions/draft/assets/
 name: Thermoregulatory Responses Hindbrain
 protocol: []
+publishedBy:
+  endDate: '2023-03-16T16:55:56.052220+00:00'
+  id: urn:uuid:3da5db15-d7c7-4dc8-afba-9043bf9edd67
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-03-16T16:55:56.052220+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:ae2b27ec-73ef-41f2-94d7-8615eb71bbe9
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
