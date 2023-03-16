@@ -41,7 +41,7 @@ assetsSummary:
   - ProcessingModule
   - BehavioralTimeSeries
 citation: Haesemeyer, Martin (2023) Thermoregulatory Responses Hindbrain (Version
-  draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  0.230316.1655) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000237/0.230316.1655
 contributor:
 - awardNumber: 1 R01 NS 123887-01
   name: National Institutes of Health (NIH)
@@ -59,15 +59,15 @@ dateCreated: '2022-04-16T22:44:59.032387+00:00'
 datePublished: '2023-03-16T16:55:56.052220+00:00'
 description: Imaging in the hindbrain of nac -/-; Elavl3-H2B:GCaMP6s +/-; vglut2a-mCherry
   +/- larval zebrafish during random wave temperature stimulus presentation
-doi: 10.80507/dandi.123456/0.123456.1234
+doi: 10.48324/dandi.000237/0.230316.1655
 ethicsApproval: []
-id: DANDI:000237/draft
+id: DANDI:000237/0.230316.1655
 identifier: DANDI:000237
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000237/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000237/0.230316.1655/assets.yaml
 name: Thermoregulatory Responses Hindbrain
 protocol: []
 publishedBy:
@@ -87,6 +87,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000237/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000237/0.230316.1655
+version: 0.230316.1655
 wasGeneratedBy: []
